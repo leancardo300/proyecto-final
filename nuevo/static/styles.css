@@ -1,0 +1,32 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 15px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #dfebf2; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+}
+h1 {
+    color: #000000; /* El color de la cabecera */
+    font-size: 32px; /* El tamaño de la fuente de la cabecera */
+    font-family: sans-serif; /* La familia tipográfica utilizada en la cabecera */
+}
+@keyframes slide-in{
+    from{transform: translateY(30px); opacity: 0;}
+    to{transform: translateY(0); opacity: 1;}
+}
+h1{
+    animation: slide-in 1s ease-in-out;
+    text-align: center;
+}
+
+img{
+    animation: slide-in 1s ease-in-out;
+    
+}
+h2{
+    animation: slide-in 1s ease-in-out;
+    text-align: center;
+}
+p{
+    animation: slide-in 1s ease-in-out;
+    text-align: center;
+}
